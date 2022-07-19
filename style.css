@@ -1,0 +1,310 @@
+/* common style start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* common style end */
+
+/* header atyle start now */
+.top-containt {
+
+    width: 100%;
+}
+
+.top-banars {
+    background-color: #6A4AA1;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.top-banar-artical {
+    width: 50%;
+    color: white;
+    padding: 100px;
+}
+
+.top-banar-artical>h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 10px;
+
+}
+
+.top-banar-artical>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.top-banar-buttons {
+    width: 185px;
+    height: 55px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-banar-buttons>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+}
+
+.top-banar-buttons>.fa-arrow-right-long {
+    font-size: 24px;
+}
+
+.top-banar-images {
+    width: 50%;
+
+
+}
+
+.top-banar-images>img {
+    width: 100%;
+    height: 100%;
+    padding: 30px 70px 0 0;
+}
+
+/* heder atyle mobile and tablet view  start now */
+@media screen and (max-width:576px) {
+    .top-banars {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .top-banar-artical {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top-banar-artical>h1 {
+        font-size: 31px;
+        line-height: 33px;
+        padding: 40px 40px 10px 40px;
+        text-align: center;
+    }
+
+    .top-banar-artical>p {
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .top-banar-buttons {
+        margin: 17px auto;
+        padding: 10px;
+    }
+
+    .top-banar-images {
+        width: 100%;
+        margin: 0;
+
+
+    }
+
+    .top-banar-images>img {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .top-banars {
+        display: flex;
+        width: 100%;
+    }
+
+    .top-banar-artical {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top-banar-artical>h1 {
+        font-size: 31px;
+        line-height: 33px;
+        padding: 40px 40px 10px 40px;
+        text-align: center;
+    }
+
+    .top-banar-artical>p {
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .top-banar-buttons {
+        margin: 17px auto;
+        padding: 10px;
+    }
+
+    .top-banar-images {
+        width: 100%;
+        margin: 0;
+
+
+    }
+
+    .top-banar-images>img {
+        width: 323px;
+        height: 340px;
+    }
+}
+
+
+/* heder atyle mobile and tablet view  end now */
+/* header atyle End now */
+/* main blog atyle start now */
+
+
+.main-blog {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+}
+
+.blog-nav {
+    width: 20%;
+    height: 300px;
+    background-color: #6A4AA1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.Upcoming-Match,
+.All-Group,
+.Blog {
+
+    width: 80%;
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 5px;
+
+}
+
+.Blog {
+    background-color: #DD0000;
+}
+
+.Upcoming-Match>a,
+.All-Group>a,
+.Blog>a {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    flex-direction: row;
+
+}
+
+.blog-artical {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.bologs {
+    width: 80%;
+
+}
+
+.bologs>h3 {
+    border: 1px solid #161616;
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    margin-top: 20px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bologs>p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #161616;
+    margin: 15px 0;
+}
+
+.bologs-ratings {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bologs-ratings>.clock,
+.massage {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+/* main blog atyle mobile and tablet view  start now */
+
+@media screen and (max-width:576px) {
+    .main-blog {
+        width: 100%;
+        display: flex;
+        flex-direction: column
+    }
+
+    .blog-nav {
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0 auto;
+
+    }
+
+    .blog-artical {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .bologs {
+        width: 100%;
+    }
+
+    .bologs>img {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* main blog atyle mobile and tablet view  end now */
+
+/* main blog atyle end now */
