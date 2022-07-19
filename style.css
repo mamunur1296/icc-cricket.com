@@ -265,6 +265,10 @@ body {
 
 }
 
+.view-all {
+    display: none;
+}
+
 /* main blog atyle mobile and tablet view  start now */
 
 @media screen and (max-width:576px) {
@@ -286,6 +290,10 @@ body {
 
     }
 
+    .Blog {
+        border-radius: 10px;
+    }
+
     .blog-artical {
 
         grid-template-columns: repeat(1, 1fr);
@@ -302,6 +310,64 @@ body {
 
 }
 
+@media screen and (min-width:577px) and (max-width:768px) {
+    .main-blog {
+        width: 100%;
+        display: flex;
+        flex-direction: column
+    }
+
+    .blog-nav {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .Blog {
+        border-radius: 10px;
+    }
+
+    .blog-artical {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .bologs {
+        width: 100%;
+    }
+
+    .bologs>img {
+        width: 100%;
+    }
+
+    .display-noun {
+        display: none;
+    }
+
+    .view-all {
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        background-color: #DD0000;
+        border-radius: 10px;
+    }
+
+    .view-all>a {
+        text-decoration: none;
+        color: white;
+        padding: 25px 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
 
 
 
