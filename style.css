@@ -478,3 +478,68 @@ hr {
 
 
 /* footer style end now */
+/* common style end */
+/* 2nd web page style start  */
+#upcoming-page {
+    background-color: #DD0000;
+}
+
+#upcoming-page a {
+    color: white;
+}
+
+#blog-page {
+    background-color: white;
+
+}
+
+#blog-page a {
+    color: black;
+}
+
+.Upcoming-bologs {
+    margin-top: 50px;
+}
+
+.Upcoming-blog-artical {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    width: 100%;
+}
+
+.Upcoming-flag {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.german-france {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+/* 2nd web page style End  */
+/* 2nd web page style mobile and tab start  */
+@media screen and (max-width:576px) {
+    .Upcoming-blog-artical {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .Upcoming-blog-artical {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 2nd web page style mobile and tab end  */
