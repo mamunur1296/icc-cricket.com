@@ -218,6 +218,10 @@ body {
 
 }
 
+.Blog>a {
+    color: white;
+}
+
 .blog-artical {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
